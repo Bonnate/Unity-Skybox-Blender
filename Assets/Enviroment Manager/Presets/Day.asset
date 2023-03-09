@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f66fe6e85cf8b4296041ce26d632a1, type: 3}
+  m_Name: Day
+  m_EditorClassIdentifier: 
+  SidedSkyboxPreset:
+    FrontTex: {fileID: 2800000, guid: 4499836ec803a0443834895abc208fba, type: 3}
+    BackTex: {fileID: 2800000, guid: 50762494be58d144d98d179cd6ba1470, type: 3}
+    LeftTex: {fileID: 2800000, guid: a78d8299279fda54098aca1c72ecfae1, type: 3}
+    RightTex: {fileID: 2800000, guid: 669daa4bd63e4204dacb9aa01a164a7f, type: 3}
+    UpTex: {fileID: 2800000, guid: c769857dc541ab7449d1352d7ff46ce8, type: 3}
+    DownTex: {fileID: 2800000, guid: 42e0664ae4c5c424ebcd980a10687e18, type: 3}
+  FogPreset:
+    FogStart: 15
+    FogEnd: 100
+    FogColor: {r: 0.9019608, g: 0.9911261, b: 1, a: 1}
+  SunPreset:
+    SunIntensity: 1.2
+    SunColor: {r: 1, g: 0.9105691, b: 0.6666666, a: 1}
+  LightningIntensityMultiplier: 1
+  ReflectionsIntensityMultiplier: 1
